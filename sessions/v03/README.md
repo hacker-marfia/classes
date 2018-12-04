@@ -1,3 +1,3 @@
 # Session 3
 
-In order to download the activity, go here
+In order to download the activity, go [here](link)
