@@ -1,0 +1,68 @@
+.Image {
+ width: 300px; 
+}
+
+.Row {
+  height: 800px;
+}
+
+.Col {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.Col h1 {
+  font-size: 3em;
+  font-weight: 200;
+}
+
+.Col p {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.Bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Add {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+  height: 200px;
+}
+
+.Add * {
+  margin: 5px 0px
+}
+
+.Card {
+  height: 200px;
+  width: 200px;
+  min-width: 200px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  justify-content: center;
+  padding-top: 60px;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  margin: 30px;
+}
+
+.Card:hover {
+  box-shadow: 8px 8px 30px rgba(0,0,0,0.4);
+}
+
+.Card h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.Card p {
+  font-size: 1.2em;
+  font-weight: 400
+}
